@@ -1,0 +1,20 @@
+1. Start
+2. Initialize variables:
+   - length = 0           
+   - words = 0            
+   - vowels = 0           
+   - sentence = input sentence 
+3. Process each character in the sentence:
+   FOR each character c in sentence DO
+       a. Increment length by 1
+       b. If c is a vowel ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'), then:
+          - Increment vowels by 1
+       c. If c is a space (' '), then:
+          - Increment words by 1
+4. After the loop, check if the last character is a period ('.'):
+   a. If the last character is a period, increment words by 1 (since the last word does not have a space after it)
+5. Display the results:
+   - Print "Length of the sentence: " + length
+   - Print "Number of words: " + words
+   - Print "Number of vowels: " + vowels
+6. End8
